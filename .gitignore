@@ -8,3 +8,4 @@ node_modules/
 *.tfvars.json
 *.pem
 *.key
+github-actions-trust-policy.json

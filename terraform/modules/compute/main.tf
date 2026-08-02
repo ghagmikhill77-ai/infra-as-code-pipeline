@@ -47,7 +47,7 @@ resource "aws_lb" "main" {
 }
 
 resource "aws_lb_target_group" "app" {
-  name = "iac-${var.environment}-tg"
+  name        = "iac-${var.environment}-tg"
   port        = var.container_port
   protocol    = "HTTP"
   target_type = "ip"
